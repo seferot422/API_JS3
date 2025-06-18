@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.photo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1200px;
+    gap: 60px;
+    background-color: #afafaf;
+}
+.best__photo {
+    overflow: hidden;
+    border-radius: 15px;
+}
+.image {
+    width: 500px;
+}
+.photo__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.photo__author {
+    padding-bottom: 60px;
+    font-size: 24px;
+}
+.like_button {
+    border: none;
+    background: #afafaf;
+}
+
+.photo__likes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.like__icon {
+    width: 30px;
+    cursor: pointer;
+}
